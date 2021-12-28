@@ -24,7 +24,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
@@ -50,5 +52,6 @@
     "webpack-cli": "^3.1.2",
     "webpack-config": "^7.5.0",
     "webpack-dev-server": "^3.1.10"
-  }
+  },
+  "homepage": "http://Allllisha.github.io/-Portfolio"
 }
