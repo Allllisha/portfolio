@@ -8,7 +8,6 @@ export default function Works() {
   const data = [
     {
       id: "1",
-      icon: "./assets/phone.png",
       title: "Web Design",
       desc:
         "Lorem Ipsum is simply dummy text of the printing and typesetting industry. ",
@@ -18,7 +17,6 @@ export default function Works() {
     },
     {
       id: "2",
-      icon: "./assets/globe.png",
       title: "Mobile Application",
       desc:
         "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
@@ -27,7 +25,6 @@ export default function Works() {
     },
     {
       id: "3",
-      icon: "./assets/writing.png",
       title: "Branding",
       desc:
         "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
@@ -53,7 +50,6 @@ export default function Works() {
               <div className="left">
                 <div className="leftContainer">
                   <div className="imgContainer">
-                    <img src={d.icon} alt="" />
                   </div>
                   <h2>{d.title}</h2>
                   <p>{d.desc}</p>
