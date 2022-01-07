@@ -1,6 +1,8 @@
 import { useState } from "react";
 import "./works.scss";
 
+
+
 export default function Works() {
   const [currentSlide, setCurrentSlide] = useState(0);
   const data = [
@@ -12,6 +14,7 @@ export default function Works() {
         "Lorem Ipsum is simply dummy text of the printing and typesetting industry. ",
       img:
       "assets/Mylandingpage.png",
+      url: "https://allllisha.github.io/landing-page/"
     },
     {
       id: "2",
@@ -54,12 +57,12 @@ export default function Works() {
                   </div>
                   <h2>{d.title}</h2>
                   <p>{d.desc}</p>
-                  <span>Projects</span>
+                  <span><a href={d.url}>Projects</a></span>
                 </div>
               </div>
               <div className="right">
                 <img
-                  src="https://99designs-blog.imgix.net/blog/wp-content/uploads/2018/10/attachment_100040756-e1538485934255.jpeg?auto=format&q=60&fit=max&w=930"
+                  src={d.img}
                   alt=""
                 />
               </div>

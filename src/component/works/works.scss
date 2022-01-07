@@ -83,6 +83,8 @@
               align-items: center;
               justify-content: center;
 
+              
+
               @include mobile {
                 width: 20%;
                 height: 20%;
@@ -115,6 +117,7 @@
               font-weight: 600;
               text-decoration: underline;
               cursor: pointer;
+
             }
           }   
         }

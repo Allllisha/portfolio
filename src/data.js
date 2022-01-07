@@ -29,15 +29,16 @@ export const featuredPortfolio = [
   },
   {
     id: 5,
-    title: "App",
+    title: "Blog App",
     img:
-    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKvdHn8GmPGCO0y3SJqNHACygpm0h9VycMHg&usqp=CAU",
+    "assets/blog.png",
+    url: "https://secret-taiga-63700.herokuapp.com/",
   },
   {
     id: 6,
-    title: "App",
-    img:
-    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKvdHn8GmPGCO0y3SJqNHACygpm0h9VycMHg&usqp=CAU",
+    title: "Coffee Landing Page",
+    img: "assets/coffee.png",
+    url: "https://coffee-landingpage.herokuapp.com/",
   },
 ];
 
