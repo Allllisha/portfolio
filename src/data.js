@@ -1,43 +1,53 @@
+import Taktivent from "./images/taktivent.main.png"
+import MovieList from "./images/MovieList.png"
+import skylooker from "./images/skylooker.png"
+import geo from "./images/geocoder.png"
+import coffee from "./images/coffee.png"
+import blog from "./images/blog.png"
+import landing from "./images/Mylandingpage.png"
+import weather from "./images/weatherapp.png"
+import fake from "./images/fakeairbnb.png"
+
 export const featuredPortfolio = [
   {
     id: 1,
-    title: "Landing Page",
+    title: "Taktivent",
     img:
-    "assets/Mylandingpage.png",
-    url: "https://allllisha.github.io/landing-page/",
+    `${Taktivent}`,
+    url: "https://taktivent.herokuapp.com/",
   },
   {
     id: 2,
-    title: "Weather App",
+    title: "MovieList",
     img:
-    "assets/weatherapp.png",
-    url: "https://allllisha.github.io/Weather-app/",
+    `${MovieList}`,
+    url: "https://skylooker.herokuapp.com/",
   },
   {
     id: 3,
-    title: "Fake AirBnB",
+    title: "Skylooker",
     img:
-      "assets/fakeairbnb.png",
-    url: "https://allllisha.github.io/react-fake-airbnb/",
+    `${skylooker}`,
+    url: "https://skylooker.herokuapp.com/",
   },
   {
     id: 4,
     title: "Geocoding App",
     img:
-    "assets/geocoder.png",
+    `${geo}`,
     url: "https://allllisha.github.io/Geocoding-app/",
   },
   {
     id: 5,
     title: "Blog App",
     img:
-    "assets/blog.png",
+    `${blog}`,
     url: "https://secret-taiga-63700.herokuapp.com/",
   },
   {
     id: 6,
     title: "Coffee Landing Page",
-    img: "assets/coffee.png",
+    img: `${coffee}`,
     url: "https://coffee-landingpage.herokuapp.com/",
   },
 ];
@@ -45,33 +55,44 @@ export const featuredPortfolio = [
 export const webPortfolio = [
   {
     id: 1,
-    title: "Web Social Media App",
-    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKvdHn8GmPGCO0y3SJqNHACygpm0h9VycMHg&usqp=CAU",
+    title: "Landing Page",
+    img:
+    `${landing}`,
+    url: "https://allllisha.github.io/landing-page/",
   },
   {
     id: 2,
-    title: "Web Rampa UI Design",
-    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKvdHn8GmPGCO0y3SJqNHACygpm0h9VycMHg&usqp=CAU",
+    title: "Weather App",
+    img:
+    `${weather}`,
+    url: "https://allllisha.github.io/Weather-app/",
   },
   {
     id: 3,
-    title: "Web E-commerce Design",
-    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKvdHn8GmPGCO0y3SJqNHACygpm0h9VycMHg&usqp=CAU",
+    title: "Fake AirBnB",
+    img:
+      `${fake}`,
+    url: "https://allllisha.github.io/react-fake-airbnb/",
   },
   {
     id: 4,
-    title: "Web Relax App",
-    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKvdHn8GmPGCO0y3SJqNHACygpm0h9VycMHg&usqp=CAU",
+    title: "Geocoding App",
+    img:
+    `${geo}`,
+    url: "https://allllisha.github.io/Geocoding-app/",
   },
   {
     id: 5,
-    title: "Web Design",
-    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKvdHn8GmPGCO0y3SJqNHACygpm0h9VycMHg&usqp=CAU",
+    title: "Blog App",
+    img:
+   `${blog}`,
+    url: "https://secret-taiga-63700.herokuapp.com/",
   },
   {
     id: 6,
-    title: "Web Banking App",
-    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKvdHn8GmPGCO0y3SJqNHACygpm0h9VycMHg&usqp=CAU",
+    title: "Coffee Landing Page",
+    img: `${coffee}`,
+    url: "https://coffee-landingpage.herokuapp.com/",
   },
 ];
 

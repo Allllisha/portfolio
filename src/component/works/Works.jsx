@@ -1,35 +1,38 @@
 import { useState } from "react";
 import "./works.scss";
-
-
+import allow from "./allow.png"
+import MovieList from "./MovieList.png"
+import Taktivent from "./taktivent.png"
+import Youtube from "./youtube.png"
 
 export default function Works() {
   const [currentSlide, setCurrentSlide] = useState(0);
   const data = [
     {
       id: "1",
-      title: "Web Design",
+      title: "MovieList",
       desc:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. ",
-      img:
-      "assets/Mylandingpage.png",
-      url: "https://allllisha.github.io/landing-page/"
+        "MovieList app allows users to make own lists with their selected movies. Users are able to follow the lists which is created by other users and also can leave comments and ratings in the list and movies. Used Rails API, React",
+      img: `${MovieList}`,
+      url: "https://github.com/Allllisha/MovieLists"
     },
     {
       id: "2",
-      title: "Mobile Application",
+      title: "Taktivent",
       desc:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+        "Taktivent is a real time feedback app for performers. Performer can make a flyer and this flyer page will change to an events programme when event starts. Performer can set any questions they would like to ask to the audience. This app will aggreagte ratings and data from the audience." ,
       img:
-        "https://i.pinimg.com/originals/e9/c9/2f/e9c92f7869d682a6fa5a97fb8a298f30.jpg",
+      `${Taktivent}`,
+      url: "https://github.com/Allllisha/taktivent"
     },
     {
       id: "3",
-      title: "Branding",
+      title: "Le wagon demoday",
       desc:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+        "This is a youtube video of Demoday at Le wagon tokyo! If you are interested in my Taktivent project more, please check out 44:27~ from here!",
       img:
-        "https://i.pinimg.com/originals/a9/f6/94/a9f69465d972a004ad581f245d6ad581.jpg",
+      `${Youtube}`,
+      url: "https://www.youtube.com/watch?v=So6jxkBLk18&t=1172s"
     },
   ];
 
@@ -53,7 +56,7 @@ export default function Works() {
                   </div>
                   <h2>{d.title}</h2>
                   <p>{d.desc}</p>
-                  <span><a href={d.url}>Projects</a></span>
+                  <span><a href={d.url}>Github & Links</a></span>
                 </div>
               </div>
               <div className="right">
@@ -67,13 +70,13 @@ export default function Works() {
         ))}
       </div>
       <img
-        src="assets/allow.png"
+        src={allow}
         className="arrow left"
         alt=""
         onClick={() => handleClick("left")}
       />
       <img
-        src="assets/allow.png"
+        src={allow}
         className="arrow right"
         alt=""
         onClick={() => handleClick()}
