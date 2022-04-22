@@ -34,7 +34,7 @@
     transition: all 1s ease-out;
 
     @include mobile {
-      height: 90vh;
+      height: 100vh;
       flex-direction: column;
       justify-content: center;
     }
@@ -83,7 +83,7 @@
               align-items: center;
               justify-content: center;
 
-              
+
 
               @include mobile {
                 width: 20%;
@@ -140,5 +140,4 @@
     }
   }
 }
-
 

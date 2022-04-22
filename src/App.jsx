@@ -1,4 +1,4 @@
-import Topbar from "./component/topbar/Topbar";
+import Topbar from "./component/Topbar/Topbar";
 import Intro from "./component/intro/Intro";
 import Portfolio from "./component/portfolio/Portfolio";
 import Works from "./component/works/Works";
