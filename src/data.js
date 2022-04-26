@@ -7,6 +7,7 @@ import blog from "./images/blog.png"
 import landing from "./images/Mylandingpage.png"
 import weather from "./images/weatherapp.png"
 import fake from "./images/fakeairbnb.png"
+import Mixology from "./images/Mixology.png"
 
 export const featuredPortfolio = [
   {
@@ -32,23 +33,22 @@ export const featuredPortfolio = [
   },
   {
     id: 4,
-    title: "Geocoding App",
-    img:
-    `${geo}`,
-    url: "https://allllisha.github.io/Geocoding-app/",
-  },
-  {
-    id: 5,
-    title: "Blog App",
-    img:
-    `${blog}`,
-    url: "https://secret-taiga-63700.herokuapp.com/",
-  },
-  {
-    id: 6,
     title: "Coffee Landing Page",
     img: `${coffee}`,
     url: "https://coffee-landingpage.herokuapp.com/",
+  },
+  {
+    id: 5,
+    title: "Mixology",
+    img:
+    `${Mixology}`,
+    url: "https://cocktail-mixology-bar.herokuapp.com/",
+  },
+  {
+    id: 6,
+    title: "Fake AirBnB",
+    img: `${fake}`,
+    url: "https://allllisha.github.io/react-fake-airbnb/",
   },
 ];
 
