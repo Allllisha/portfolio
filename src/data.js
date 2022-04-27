@@ -12,17 +12,17 @@ import Mixology from "./images/Mixology.png"
 export const featuredPortfolio = [
   {
     id: 1,
+    title: "MovieList",
+    img:
+    `${MovieList}`,
+    url: "https://my-movielists.com/",
+  },
+  {
+    id: 2,
     title: "Taktivent",
     img:
     `${Taktivent}`,
     url: "https://taktivent.herokuapp.com/",
-  },
-  {
-    id: 2,
-    title: "MovieList",
-    img:
-    `${MovieList}`,
-    url: "https://skylooker.herokuapp.com/",
   },
   {
     id: 3,
