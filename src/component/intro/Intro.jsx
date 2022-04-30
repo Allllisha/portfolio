@@ -1,7 +1,7 @@
 import "./intro.scss";
 import { init } from 'ityped';
 import { useEffect, useRef } from 'react';
-import image from "./anemoto.png"
+import image from "./anemoto1.jpg"
 import allow from "./blackallow.png"
 
 export default function Intro() {
