@@ -7,7 +7,6 @@ export default function Menu({ menuOpen, setMenuOpen }) {
     <div className={"menu "+(menuOpen && "active")}>
       <img src={image} alt="" />
       <h1>Arisa Nemoto</h1>
-      {/* <h1>Skils</h1> */}
       <ul>
         <li onClick={()=>setMenuOpen(false)}>
           <a href="#intro">Home</a>
