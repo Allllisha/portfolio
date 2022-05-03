@@ -8,6 +8,7 @@ import landing from "./images/Mylandingpage.png"
 import weather from "./images/weatherapp.png"
 import fake from "./images/fakeairbnb.png"
 import Mixology from "./images/Mixology.png"
+import nextblog from "./images/nextblog.png"
 
 export const featuredPortfolio = [
   {
@@ -46,9 +47,9 @@ export const featuredPortfolio = [
   },
   {
     id: 6,
-    title: "Fake AirBnB",
-    img: `${fake}`,
-    url: "https://allllisha.github.io/react-fake-airbnb/",
+    title: "Next.js Jamstackblog",
+    img: `${nextblog}`,
+    url: "https://arisa-coding-blog.vercel.app/",
   },
 ];
 
