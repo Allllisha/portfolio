@@ -17,7 +17,7 @@ export default function Contact() {
         <div className="contact-details">
         <div className="linkedin">
         < FiMail/>
-        <h4>ardolce@gmail.com</h4>
+        <h4>ardolce23@gmail.com</h4>
         </div>
           <div className="linkedin">
         < FaLinkedin/>
