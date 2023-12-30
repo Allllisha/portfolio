@@ -1,6 +1,6 @@
 import Taktivent from "./images/taktivent.main.png"
 import MovieList from "./images/MovieList.png"
-import skylooker from "./images/skylooker.png"
+import RihoAkagi from "./images/AkagiRiho.png"
 import geo from "./images/geocoder.png"
 import coffee from "./images/coffee.png"
 import blog from "./images/blog.png"
@@ -27,10 +27,10 @@ export const featuredPortfolio = [
   },
   {
     id: 3,
-    title: "Skylooker",
+    title: "Pianist Riho Akagi HP",
     img:
-    `${skylooker}`,
-    url: "https://skylooker.herokuapp.com/",
+    `${RihoAkagi}`,
+    url: "https://rihoakagi.com/",
   },
   {
     id: 4,
