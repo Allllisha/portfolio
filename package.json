@@ -20,6 +20,7 @@
     "ityped": "^1.0.3",
     "node-scss": "^7.0.3",
     "npm": "^10.2.5",
+    "package_name": "^1.0.2",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-icons": "^4.3.1",
